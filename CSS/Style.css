@@ -308,7 +308,7 @@ border-radius: 50px;
   margin-left: 5%;
   box-shadow: 5px 10px darkgrey;
   border-radius: 70px;
-
+  overflow: hidden;
 }
 
 .infobox2{
@@ -500,7 +500,7 @@ border-radius: 30px;
 }
 .index-para-box{
   display:inline-block;
-  overflow: hidden;
+
 }
 
 
