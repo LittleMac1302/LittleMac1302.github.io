@@ -1,0 +1,112 @@
+<html lang="en">
+<head>
+<link rel="stylesheet" href="CSS/Style.css">
+<script src="JS/script.js"></script>
+<title>Home Page</title>
+    <body>
+      <header>
+        <div class="container">
+          <nav class="navbar">
+            <a href="index.html" class="nav-branding"><b>Food 4 You</b></a>
+              <ul class="nav-menu">
+              <li class="nav-options"><a href="index.html">Home</a></li>
+              <li class="nav-options"><a href="drinks.html">Drinks</a></li>
+              <li class="nav-options"><a href="food.html">Recipes</a></li>
+              <li class="nav-options"><a href="calorieCalc.html">Calories</a></li>
+              <li><span onclick="openSide()" >
+                <div class="menu-container" onclick="myFunction(this)">
+                  <div class="bar-1"></div>
+                  <div class="bar-2"></div>
+                  <div class="bar-3"></div>
+                </div></span>
+              </li>
+            </ul>
+          </nav>
+        </div>
+    </header>
+  </body>
+</head>
+<div id="pop-menu" class="sidePop">
+  <a href="login.html">Login</a>
+  <a href="signuppage.html">Sign Up</a>
+  <a href="contactform.html">Contact Form</a>
+  <a href="" class="closePop" onclick="closeSide()">Close</a>
+</div>
+<h2 style="margin-top: 70px;">Calories</h2>
+<div class="calcbox1">
+<h2 class="boxheader">Why is it important to track your calories...</h2>
+<p class="calorieInfo"><b>We burn calories in our day to day lives doing all different
+  kinds of activities. Calories are a measurement of the energy content in food,
+  the avergae person should consume 2000-2500 calories a day to stay healthy.
+  When it comes to burning calories not everyone burn them at te same rates in
+  the same ways, this is where many people begin to get confused when trying to get
+  in shape.</b></p>
+
+  <h2 class="boxheader2">Gaining and losing weight...</h2>
+  <p class="calorieInfo"><b>
+  When it comes to getting in shape it is important to keep track of how many
+  calories that you are eating, this is because if you intake more calories the
+  you are burning your body will use what it needs to and will store the rest as fat.
+  Where as adversely if you "burn" more calories then you intake then your body will be forced
+  to use the calories store within your fat. Despite this fact it is important to eat
+  even when trying to lose weight as even if you dont exercise your body need a minumum amount of
+  calories to live/function.
+</b>
+</p>
+</div>
+<div class="calcboxmix">
+<div class="calcbox2">
+  <h2 class="boxheader">Calorie Intake...</h2>
+  <form class="calorieNumbers" method="post">
+    <div class="input-border">
+      <label>Calories in Breakfast:</label>
+      <input type="number" name="calOne" value="calOne" id="calTwo">
+    </div>
+    <br></br>
+    <div class="input-border">
+      <label>Calories in Lunch:</label>
+      <input type="number" name="calOne" value="calTwo" id="calTwo">
+    </div>
+        <br></br>
+    <div class="input-border">
+      <label>Calories in Dinner:</label>
+      <input type="number" name="calOne" value="calThree" id="calThree">
+    </div>
+  <br></br>
+  <div class="input-border">
+    <label>Calories in Snacks:</label>
+    <input type="number" name="calOne" value="calFour" id="calFour">
+  </div>
+<br></br>
+  </form>
+</div>
+<div class="calcbox3">
+<h2 class="boxheader">Biggest Calorie Intakes...(Per 100g)</h2>
+<ul class="bigCal">
+  <li class="cal-background"><b>Granola: 489Cal</b></li>
+  <br>
+  <li class="cal-background"><b>Chicken Legs: 184Cal</b></li>
+  <br>
+  <li class="cal-background"><b>Frim Tofu: 144Cal</b></li>
+  <br>
+  <li class="cal-background"><b>Salmon: 206Cal</b></li>
+  <br>
+  <li class="cal-background"><b>Avacados: 160Cal</b></li>
+
+</ul>
+</div>
+</div>
+<footer>
+  <div class="bottom">
+  <ul class="Socials">
+    <li style="padding: 10px"><b>Email: Email@Email.com</b></li>
+    <li style="padding: 10px"><b> | </b><li>
+    <li style="padding: 10px"><b>FaceBook: RecipesEdin</b></li>
+    <li style="padding: 10px"><b> | </b><li>
+    <li style="padding: 10px"><b>Twitter: RecipesEdinTwitter</b></li>
+    <li style="padding: 10px"><b> | </b><li>
+    <li style="padding: 10px"><b>Phone number: 01343 8772260</b></li>
+  </ul>
+</footer>
+</main>
+</html>

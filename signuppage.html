@@ -1,0 +1,93 @@
+<html lang="en">
+<head>
+<link rel="stylesheet" href="CSS/Style.css">
+<script src="JS/script.js"></script>
+<title>SignUp</title>
+    <body>
+      <header>
+        <div class="container">
+          <nav class="navbar">
+            <a href="index.html" class="nav-branding"><b>Food 4 You</b></a>
+              <ul class="nav-menu">
+              <li class="nav-options"><a href="index.html">Home</a></li>
+              <li class="nav-options"><a href="drinks.html">Drinks</a></li>
+              <li class="nav-options"><a href="food.html">Recipes</a></li>
+              <li class="nav-options"><a href="calorieCalc.html">Calories</a></li>
+              <li><span onclick="openSide()" >
+                <div class="menu-container" onclick="myFunction(this)">
+                  <div class="bar-1"></div>
+                  <div class="bar-2"></div>
+                  <div class="bar-3"></div>
+                </div></span>
+              </li>
+            </ul>
+          </nav>
+        </div>
+    </header>
+  </body>
+</head>
+<main>
+  <div id="pop-menu" class="sidePop">
+    <a href="login.html">Login</a>
+    <a href="signuppage.html">Sign Up</a>
+    <a href="contactform.html">Contact Form</a>
+    <a href="" class="closePop" onclick="closeSide()">Close</a>
+  </div>
+  <h2 style="margin-top: 70px;">Sign Up</h2>
+  <div class="contactAside">
+    <form method="post" class="contact-form">
+    <div class="contact-input-border">
+    <label for="fullname">Fullname: </label>
+    <input type="text" placeholder="Fullname" id="fullname" name="fullname" required ="true" size="25"/>
+    </div>
+    <div class="form-divider"></div>
+  <div class="contact-input-border">
+    <label for="email">Email:</label>
+    <br>
+    <input type="email" placeholder="Insert Email" id="email" name="email"/>
+  </div>
+    <div class="form-divider"></div>
+    <div class="contact-input-border">
+      <label for="email">Password:</label>
+      <br>
+      <input type="password" placeholder="Chosen password" id="password" name="password"/>
+    </div>
+      <div class="form-divider"></div>
+  <div class="contact-input-border">
+    <label for="contactReason">How did you find us:<label>
+      <select id="contactReason" name="contactReason">
+        <option value="Option0">Please Select One..</option>
+        <option value="Option1">Advertisement</option>
+        <option value="Option2">Social Media</option>
+        <option value="Option3">Just Stumbled Across it</option>
+      </select>
+  </div>
+      <div class="form-divider"></div>
+  <div class="contact-input-border">
+        <label for="message">What made you decide to create an account:</label>
+        <br></br>
+        <textarea placeholder="Enter message here..." id="message" name="message" size=30></textarea>
+  </div>
+      <div class="form-divider"></div>
+        <div class="contact-input-border">
+        <label for="terms">Agree with T&C: <label>
+        <input type="checkbox" name="terms" id="terms" required ="true">
+      </div>
+        <input type="submit" value="Create" style="margin: 5%; width: 50px;">
+    </form>
+  </div>
+<footer>
+
+  <div class="bottom">
+  <ul class="Socials">
+    <li style="padding: 10px"><b>Email: Email@Email.com</b></li>
+    <li style="padding: 10px"><b> | </b><li>
+    <li style="padding: 10px"><b>FaceBook: RecipesEdin</b></li>
+    <li style="padding: 10px"><b> | </b><li>
+    <li style="padding: 10px"><b>Twitter: RecipesEdinTwitter</b></li>
+    <li style="padding: 10px"><b> | </b><li>
+    <li style="padding: 10px"><b>Phone number: 01343 8772260</b></li>
+  </ul>
+</footer>
+</main>
+</html>
