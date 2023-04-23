@@ -26,6 +26,6 @@ function openOption(evt, cityName){
     miniNavOptions[i].className = miniNavOptions[i].className.replace(" active", "");
   }
 
-document.getElementById(cityName).style.display = "block";
+document.getElementById(cityName).style.display = "flex";
 evt.currentTarget.className += " active";
 }
